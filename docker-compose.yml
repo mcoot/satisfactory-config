@@ -9,7 +9,7 @@ services:
           - '15000:15000/udp'
           - '15777:15777/udp'
       volumes:
-          - '/opt/satisfactory/data:/config'
+          - '/etc/opt/satisfactory/data:/config'
       environment:
           - MAXPLAYERS=4
           - PGID=1000
