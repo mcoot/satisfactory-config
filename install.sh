@@ -2,4 +2,4 @@
 
 snap install docker
 
-mkdir -p /opt/satisfactory/data
+mkdir -p /etc/opt/satisfactory/data

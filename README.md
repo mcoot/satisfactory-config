@@ -8,7 +8,7 @@ First, clone this repo onto the server.
 
 Run `install.sh` to configure:
 * Install docker
-* Set up `/opt/satisfactory/data` to hold satisfactory config, saves and such
+* Set up `/etc/opt/satisfactory/data` to hold satisfactory config, saves and such
 
 Run `docker compose up` in the repo root to start the server.
 
