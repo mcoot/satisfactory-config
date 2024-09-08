@@ -10,7 +10,7 @@ Run `install.sh` to configure:
 * Install docker
 * Set up `/etc/opt/satisfactory/data` to hold satisfactory config, saves and such
 
-Run `docker compose up` in the repo root to start the server.
+Run `docker compose up --detach` in the repo root to start the server.
 
 Obviously you need your firewall on the host set up to allow the relevant ports.
 
