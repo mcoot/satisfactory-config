@@ -11,7 +11,7 @@ services:
       volumes:
           - '/etc/opt/satisfactory/data:/config'
       environment:
-          - MAXPLAYERS=4
+          - MAXPLAYERS=6
           - PGID=1000
           - PUID=1000
           - ROOTLESS=false
