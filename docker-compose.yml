@@ -5,9 +5,8 @@ services:
       hostname: 'satisfactory-server'
       image: 'wolveix/satisfactory-server:latest'
       ports:
-          - '7777:7777/udp'
-          - '15000:15000/udp'
-          - '15777:15777/udp'
+        - '7777:7777/tcp'
+        - '7777:7777/udp'
       volumes:
           - '/etc/opt/satisfactory/data:/config'
       environment:
